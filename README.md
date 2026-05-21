@@ -13,7 +13,7 @@
 ## Структура проекта
 
 ```text
-ANNY/
+final_project/
 ├── chroma_db/          # Векторная база данных (ChromaDB)
 ├── docs/               # Нормативная документация (.txt)
 ├── auto_check.py       # Система автотестирования точности (Accuracy)
@@ -149,7 +149,7 @@ ollama run llama3
 Перейти в папку проекта:
 
 ```bash
-cd ANNY
+cd final_project
 ```
 
 Установить библиотеки:
