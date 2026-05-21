@@ -25,8 +25,7 @@ final_project/
 ├── indexer.py          # Индексация документов и создание эмбеддингов
 ├── rag_simple.py       # Ядро RAG-системы и работа с LLM
 ├── README.md           # Документация проекта
-├── requirements.txt    # Зависимости проекта
-└── .gitignore          # Исключения Git
+└── requirements.txt    # Зависимости проекта
 ```
 
 ---
