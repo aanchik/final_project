@@ -8,7 +8,7 @@ from pydantic import BaseModel
 from rag_simple import RobustRAG
 import uvicorn
 
-app = FastAPI(title="Помощник службы авиационной безопасности")
+app = FastAPI(title="Справочник Инспектора САБ")
 
 # Инициализируем RAG при старте сервера
 rag = RobustRAG()
@@ -40,4 +40,4 @@ async def get_ui():
 
 if __name__ == "__main__":
     print("Запуск веб-сервера RAG-помощника...")
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
